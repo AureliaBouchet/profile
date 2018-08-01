@@ -21,10 +21,11 @@ a:hover{
 h1, h2 {
   color: #005792;
   font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 60%;
   box-shadow: 1px 1px 2px;
 }
 
@@ -34,10 +35,8 @@ h1, h2 {
   padding: 10px;
   border-radius: 4px;
 }
-.box-blue {
-  background-color: #10242B;
-  margin: auto;
-  padding: 10px;
+.box-grey {
+  background-color: #384047;
 }
 
 .text-center {
@@ -50,13 +49,7 @@ h1, h2 {
 
 .list-inline li {
   display: inline;
-  color: #E84855;
   margin: 25px;
-}
-
-#movies-content > table {
-  text-align: justify;
-  border-spacing: 10px;
 }
 
 .movie-banner {
@@ -80,6 +73,28 @@ h1, h2 {
   margin:auto;
 }
 
+.list-white {
+  color:white;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content {
+   margin-left: 100px;
+}
+
+#movies-content > table {
+  text-align: justify;
+  border-spacing: 10px;
+}
+
+
 @media (max-width: 1500px) {
   .box-white, .box-blue {
     width: 600px;
@@ -88,7 +103,7 @@ h1, h2 {
 
 @media (max-width: 720px) {
   .box-white, .box-blue {
-    width: 400px;
+    width: 500px;
   }
 }
 
@@ -97,3 +112,5 @@ h1, h2 {
     width: 300px;
   }
 }
+
+
