@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(245,245,245);
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+  color: #13334C;
+}
+
+img {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: #13334C;
+}
+
+a:hover{
+  color: #E84855;
+}
+
+h1, h2 {
+  color: #005792;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px;
+}
+
+.box-white {
+  background-color: white;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 4px;
+}
+.box-blue {
+  background-color: #10242B;
+  margin: auto;
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline{
+  padding:0;
+}
+
+.list-inline li {
+  display: inline;
+  color: #E84855;
+  margin: 25px;
+}
+
+#movies-content > table {
+  text-align: justify;
+  border-spacing: 10px;
+}
+
+.movie-banner {
+  background-image: url("images/cinema.jpeg");
+}
+.profile-banner {
+  background-image: url("images/programmer.jpeg");
+}
+.social-network-banner {
+  background-image: url("images/socialnetwork.jpeg");
+}
+
+.banner {
+  background-size: cover;
+  height:200px;
+  display:flex;
+}
+
+.text-banner {
+  color: rgba(255,255,255,1);
+  margin:auto;
+}
+
+@media (max-width: 1500px) {
+  .box-white, .box-blue {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .box-white, .box-blue {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .box-white, .box-blue {
+    width: 300px;
+  }
+}
