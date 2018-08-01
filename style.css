@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(245,245,245);
+  /*background-color: rgb(245,245,245);*/
+  background-image: url(https://picsum.photos/200/300?image=994);
+  background-size: cover;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
   color: #13334C;
@@ -97,6 +99,7 @@ h1, h2 {
   left: 0;
   top: 0;
   bottom: 0;
+  border-right:solid 1px white;
 }
 
 #page-content {
